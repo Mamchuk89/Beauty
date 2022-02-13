@@ -85,7 +85,7 @@ input {
  }
 
 input.search {
-    background-image: url("/image/search.svg");
+    background-image: url("image/search.svg");
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 20px;
@@ -142,7 +142,7 @@ hr {
 
 .promotion {
     height: 600px;
-    background-image: url("/image/main-foto.png");
+    background-image: url("image/main-foto.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -299,7 +299,7 @@ h3 {
 }
 
 .widgets__subscribe {
-    background-image: url("/image/envelope.svg");
+    background-image: url("image/envelope.svg");
     background-repeat: no-repeat;
     background-position: 355px 45px;
 }
@@ -326,7 +326,7 @@ h3 {
 }
 
 .widgets__our-shops {
-    background-image: url("/image/car.svg");
+    background-image: url("image/car.svg");
     background-repeat: no-repeat;
     background-position: 305px 56px;
 }
