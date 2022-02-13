@@ -1,0 +1,433 @@
+body {
+  margin: 0;
+  background: #E5E5E5; }
+
+.wrapper {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto; }
+
+/** HEADER-TOP **/
+.head-top {
+  height: 50px;
+  background-color: #E5E5E5; }
+
+.head-top__list {
+  margin: 0;
+  display: flex;
+  justify-content: center; }
+
+.head-top__list-item {
+  margin-top: 16px;
+  margin-right: 30px;
+  list-style-type: none; }
+
+.head-top__list-item a {
+  text-decoration: none;
+  color: #333333; }
+
+/** HEADER **/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header {
+  padding-top: 20px;
+  background-color: #ffffff; }
+
+.header__logo {
+  display: flex;
+  align-items: center; }
+
+.header__logo-text {
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #F13C6E; }
+
+input {
+  outline: none; }
+
+.search {
+  width: 250px;
+  height: 40px;
+  margin-right: 90px;
+  margin-left: 170px;
+  padding-left: 45px;
+  background: #EFEFEF;
+  border-radius: 40px;
+  border: 1px #ffffff; }
+
+@media (max-width: 1120px) {
+  .search {
+    display: none; } }
+input.search {
+  background-image: url("/image/search.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 20px; }
+
+a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000; }
+
+.btn {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center; }
+
+.header__button, .footer__button {
+  width: 170px;
+  height: 40px;
+  margin-left: 40px;
+  background-color: #ffffff;
+  border: 2px solid #F13C6E;
+  box-sizing: border-box;
+  border-radius: 40px;
+  color: #000000; }
+
+hr {
+  border: 1px solid #EFEFEF;
+  margin-top: 20px; }
+
+.header__nav-list {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center; }
+
+.nav__list-item {
+  margin-right: 40px;
+  list-style-type: none; }
+
+/**  PROMOTION  **/
+.promotion {
+  height: 600px;
+  background-image: url("/image/main-foto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 80px; }
+
+.promotion__inner {
+  padding-top: 192px; }
+
+.promotion__title {
+  margin: 0;
+  padding-bottom: 50px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF; }
+
+.promotion__text {
+  font-family: "Roboto";
+  padding-bottom: 50px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 0;
+  width: 308px; }
+
+.promotion__button {
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  width: 170px;
+  height: 40px;
+  color: #FFFFFF;
+  background: #F13C6E; }
+
+/**  SPECIAL  **/
+.special {
+  margin-bottom: 100px; }
+
+.special__items {
+  background: #EFEFEF;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  padding: 0;
+  margin: 0; }
+
+@media (max-width: 1120px) {
+  .special__items {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center; } }
+.special__item {
+  height: 360px;
+  background: #FFFFFF;
+  width: 255px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.special__item-text {
+  width: 195px;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333; }
+
+.special__price {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 20px; }
+
+.button__buy {
+  color: #FFFFFF;
+  background: #F13C6E;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  border: 1px solid #ffffff; }
+
+h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 38px; }
+
+/**  WIDJETS  **/
+.widgets {
+  margin-bottom: 100px; }
+
+.widgets_list {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+@media (max-width: 1120px) {
+  .widgets__subscribe {
+    margin-bottom: 30px; } }
+.block {
+  width: 500px;
+  height: 145px;
+  background: #F13C6E;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 0 35px 40px; }
+
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 25px; }
+
+.widgets__subscribe {
+  background-image: url("/image/envelope.svg");
+  background-repeat: no-repeat;
+  background-position: 355px 45px; }
+
+.subscribe__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  width: 231px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 25px; }
+
+.subscribe__input {
+  background: #FFFFFF;
+  border-radius: 30px;
+  border: 1px #ffffff;
+  width: 200px;
+  height: 35px;
+  padding-left: 25px; }
+
+.widgets__our-shops {
+  background-image: url("/image/car.svg");
+  background-repeat: no-repeat;
+  background-position: 305px 56px; }
+
+.our-shops__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  width: 141px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 25px; }
+
+.our-shops__button {
+  color: #FFFFFF;
+  background: #F13C6E;
+  width: 170px;
+  height: 35px;
+  border-radius: 30px;
+  border: 1px solid #ffffff; }
+
+/**  BRANDS  **/
+.brands__list {
+  margin: 0;
+  margin-bottom: 80px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+@media (max-width: 1120px) {
+  .brands__list {
+    grid-template-columns: 1fr 1fr 1fr; } }
+@media (max-width: 820px) {
+  .brands__list {
+    grid-template-columns: 1fr 1fr; } }
+.brands__item {
+  list-style-type: none;
+  background-color: #FFFFFF;
+  padding: 35px 60px;
+  border: 1px solid #EFEFEF; }
+
+/**  POPULAR  **/
+.popular__blocks {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0 60px 0; }
+
+@media (max-width: 1120px) {
+  .popular__blocks {
+    flex-wrap: wrap; } }
+.popular__block {
+  margin: 0;
+  padding: 0;
+  width: 255px; }
+
+.popular {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #EFEFEF; }
+
+.popular__title {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140.62%;
+  color: #000000;
+  width: 99px; }
+
+.popular__title-line {
+  width: 255px;
+  color: #EFEFEF;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 25px; }
+
+.popular__list {
+  padding: 0; }
+
+.popular__item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  list-style-type: none;
+  margin: 0; }
+
+.popular__item:not(:last-child) {
+  margin-bottom: 10px; }
+
+.popular__item a {
+  color: #828282;
+  margin-bottom: 10px; }
+
+/**  FOOTER  **/
+.footer {
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+  padding-bottom: 38px;
+  background-color: #FFFFFF; }
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.footer__social-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; }
+
+.footer__social-list li {
+  width: 45px;
+  height: 45px;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 2px solid #F13C6E;
+  box-sizing: border-box;
+  margin-right: 20px; }
+
+.img-youtube {
+  padding: 13px 10px; }
+
+.img-vk {
+  padding: 13px 6px; }
+
+.img-facebook {
+  padding: 10px 10px; }
+
+.img-instagram {
+  padding: 9px 10px; }
+
+.adress {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000; }
+
+/**  FOOTER BOTTOM  **/
+.footer__bottom {
+  background: #EFEFEF;
+  height: 64px; }
+
+.footer__rights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px; }
+
+.rights {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282; }
+
+/*# sourceMappingURL=style.css.map */
